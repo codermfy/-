@@ -1,0 +1,8 @@
+最直观的区别就是GET把参数包含在URL中，POST通过request body传递参数。
+
+对于GET方式的请求，浏览器会把http header和data一并发送出去，服务器响应200（返回数据）；
+
+而对于POST，浏览器先发送header，服务器响应100 continue，浏览器再发送data，服务器响应200 ok（返回数据）。
+
+get请求安全性低，会被缓存，Post不会
+get请求发送数据量小，Post请求发送数据量大

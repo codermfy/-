@@ -1,0 +1,5 @@
+在浏览器中发送 XMLHttpRequests 请求
+在 node.js 中发送 http请求
+支持 Promise API
+拦截请求和响应
+转换请求和响应数据

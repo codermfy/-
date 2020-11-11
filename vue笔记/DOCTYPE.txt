@@ -1,0 +1,6 @@
+BackCompat：怪异模式，浏览器使用自己的怪异模式解析渲染页面。
+
+CSS1Compat：标准模式，浏览器使用W3C的标准解析渲染页面。
+
+ 
+    这个属性会被浏览器识别并使用，但是如果你的页面没有DOCTYPE的声明，那么compatMode默认就是BackCompat
